@@ -1,0 +1,22 @@
+.grid-container {
+    background-color:cadetblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px; /* Espacio entre filas y columnas */
+}
+
+.container {
+    background-color: aqua;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 20px;
+    color: brown;
+}
+
+.main {
+    grid-row: 2;
+    grid-column: auto;
+}
